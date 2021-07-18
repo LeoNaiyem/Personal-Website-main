@@ -1,0 +1,167 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+section{
+    height: 500px;
+}
+.nav-bar{
+
+    width: 100%;
+    
+}
+.nav-bar ul{
+    text-align: right;
+    margin-right: 50px;
+}
+.nav-bar ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: tomato;
+    
+}
+.nav-bar ul li a{
+    color:white;
+    font-size: 20px;
+    text-decoration: none;
+}
+h1{
+    font-family: Bebas Neue;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 20px;
+
+
+}
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-weight: normal;
+    font-family: Bebas Neue;
+
+}
+.highlight{
+    color: tomato;
+
+}
+.top-area{
+    margin: 0% 5%;
+
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+}
+.text-section{
+    margin: 45px 0 0 50px;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+p{
+    margin-bottom: 30px;
+    padding: 5px;
+}
+.button{
+    color: white;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, salmon, tomato);
+    border-radius: 5px;
+    text-decoration: none;
+}
+.about-area{
+    clear: both;
+    margin: 0% 5%;
+}
+.latest-projects-area{
+    clear: both;
+    background-color:#E5E5E5;
+    text-align: center; 
+    height: 800px;  
+}
+.latest-projects-area h1{
+        padding: 100px 0px;
+        margin: 0px;
+}
+.project-wrap{
+    margin: 0% 5%;
+}
+.project{
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    text-align: left;
+    box-shadow: 5px 5px 40px gray;
+    border-radius: 5px;
+    padding: 12px;
+}
+.project img{
+    width: 100%;
+}
+.footer-content{
+    height: 220px;
+    width: 900px;
+    border-radius: 30px;
+    /* background-image: url(images/Group_33094_1.png); */
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-top: 100px;
+    background-position: center;
+}
+.footer-content img{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.text{
+    width: 25%;
+    position: relative;
+    bottom: 145px;
+    left: 60px;
+    color: white;
+    float: left;
+
+
+}
+.chat{
+    position: relative;
+    bottom: 120px;
+    right: 65px;
+    float: right;
+}
+#chat-button{
+    text-decoration: none;
+    padding: 20px 35px;
+    background-image: linear-gradient(30deg, salmon, tomato);
+    border-radius: 8px;
+    color: white;
+}
+.social-media{
+    clear: both;    
+    text-align: center;
+}
+
+.social-media-icons{
+    text-align: center;
+}
+.social-media-icons ul li{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 5px;
+}
+.social-media-icons ul li a img{
+    width: 40px;
+    height: 40px;
+
+}
